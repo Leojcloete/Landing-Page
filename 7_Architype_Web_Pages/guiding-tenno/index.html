@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origin Path: Odyssey™ — Guiding Tenno</title>
+    <link rel="stylesheet" href="../../origin-path-theme.css">
+    <style>
+        /* Shared landing page backgrounds / globals */
+        :root {
+            --deep-space: #0b0d17;
+            --origin-glow: #ff7e5f;
+            --odyssey-glow: #00c6ff;
+            --accent-purple: #7b2cbf;
+            --accent-gold: #f4d35e;
+        }
+        body {
+            background: var(--deep-space);
+        }
+        .background {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            perspective: 1200px;
+            overflow: hidden;
+            background: var(--deep-space);
+        }
+        .stars {
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(2px 2px at 10% 20%, rgba(255,255,255,0.35), transparent),
+                radial-gradient(1.5px 1.5px at 80% 10%, rgba(255,255,255,0.25), transparent),
+                radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,0.2), transparent),
+                radial-gradient(2px 2px at 90% 60%, rgba(255,255,255,0.3), transparent),
+                radial-gradient(1px 1px at 25% 55%, rgba(255,255,255,0.15), transparent);
+            background-size: 100% 100%;
+            opacity: 0.6;
+            z-index: 0;
+        }
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.7;
+            animation: float 18s ease-in-out infinite;
+            z-index: 1;
+        }
+        .orb-origin {
+            width: 45vw;
+            height: 45vw;
+            max-width: 600px;
+            max-height: 600px;
+            background: radial-gradient(circle at 30% 30%, var(--origin-glow), var(--accent-purple));
+            top: 10%;
+            left: -5%;
+            animation-delay: 0s;
+        }
+        .orb-odyssey {
+            width: 50vw;
+            height: 50vw;
+            max-width: 700px;
+            max-height: 700px;
+            background: radial-gradient(circle at 70% 70%, var(--odyssey-glow), var(--accent-purple));
+            bottom: 5%;
+            right: -10%;
+            animation-delay: -9s;
+        }
+        .orb-gold {
+            width: 25vw;
+            height: 25vw;
+            max-width: 320px;
+            max-height: 320px;
+            background: radial-gradient(circle, var(--accent-gold), transparent 70%);
+            top: 40%;
+            left: 40%;
+            opacity: 0.35;
+            animation-delay: -4s;
+            animation-duration: 22s;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-30px) scale(1.05); }
+        }
+        .opo-shell {
+            position: relative;
+            z-index: 10;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body class="opo-theme">
+    <div class="background" aria-hidden="true">
+        <div class="stars"></div>
+        <div class="orb orb-origin"></div>
+        <div class="orb orb-odyssey"></div>
+        <div class="orb orb-gold"></div>
+    </div>
+    <main class="opo-page">
+        <section class="opo-shell">
+            <header class="opo-hero opo-hero--participant">
+                <p class="opo-eyebrow">Origin Path: Odyssey™</p>
+                <h1 class="opo-title">Guiding Tenno</h1>
+                <p class="opo-copy opo-copy--supporting">Core Question: <em>Who may need support, and how can I help them move forward?</em></p>
+            </header>
+            
+            <div class="opo-content">
+                <section class="opo-section">
+                    <h2 class="opo-heading">Archetype Identity and Foundation</h2>
+                    <p class="opo-copy">The Guiding Tenno represents empathy, encouragement, patience, cooperation, trust, and the desire to help other people develop.</p>
+<p class="opo-copy">Not every participant measures success only through personal achievement.</p>
+<p class="opo-copy">Some experience success most strongly when another person becomes more capable, confident, included, or hopeful because of their support.</p>
+<p class="opo-copy">Participants showing Guiding Tenno strengths may naturally notice:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>When someone feels uncertain.</li>
+  <li>When a person is being excluded.</li>
+  <li>Who may need encouragement.</li>
+  <li>When someone requires a patient explanation.</li>
+  <li>How a group is feeling.</li>
+  <li>Whether another person has been heard.</li>
+  <li>What may help someone regain confidence.</li>
+  <li>How people can work together more effectively.</li>
+</ul>
+<p class="opo-copy">The Guiding Tenno does not simply recognise that someone needs help.</p>
+<p class="opo-copy">Their strength often appears through the willingness to respond with practical support.</p>
+
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Core Purpose</h2>
+                    <p class="opo-copy">The Guiding Tenno strengthens people and the relationships through which they learn, participate, and grow.</p>
+<p class="opo-copy">Their contribution may appear through:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Listening.</li>
+  <li>Teaching.</li>
+  <li>Mentoring.</li>
+  <li>Encouragement.</li>
+  <li>Caregiving.</li>
+  <li>Teamwork.</li>
+  <li>Mediation.</li>
+  <li>Coaching.</li>
+  <li>Community support.</li>
+  <li>Patient explanation.</li>
+  <li>Emotional reassurance.</li>
+  <li>Helping someone regain confidence.</li>
+  <li>Creating welcoming environments.</li>
+  <li>Recognising the potential of others.</li>
+</ul>
+<p class="opo-copy">The Guiding Tenno reminds people that achievement does not always need to happen alone.</p>
+<p class="opo-copy">Sometimes the greatest contribution is helping another person believe that they are capable of continuing.</p>
+
+                </section>
+
+                <section class="opo-section opo-callout opo-callout--participant">
+                    <h2 class="opo-heading">Archetype Contribution</h2>
+                    <p class="opo-copy">The Guiding Tenno helps others recognise that they do not have to walk alone.</p>
+
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Defining Strengths</h2>
+                    <p class="opo-copy">Guiding Tenno strengths may include:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Empathy.</li>
+  <li>Active listening.</li>
+  <li>Encouragement.</li>
+  <li>Patience.</li>
+  <li>Cooperation.</li>
+  <li>Trust-building.</li>
+  <li>Emotional awareness.</li>
+  <li>Teaching.</li>
+  <li>Mentoring.</li>
+  <li>Supportive communication.</li>
+  <li>Collaborative problem-solving.</li>
+  <li>Creating positive environments.</li>
+  <li>Recognising the needs of others.</li>
+  <li>Helping people develop confidence.</li>
+  <li>Remaining present during difficulty.</li>
+  <li>Celebrating the progress of others.</li>
+</ul>
+<p class="opo-copy">These strengths may appear in highly visible or very quiet ways.</p>
+<p class="opo-copy">A participant may demonstrate Guiding Tenno strengths by:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Helping someone understand a task.</li>
+  <li>Listening when a friend is struggling.</li>
+  <li>Welcoming a new person into a group.</li>
+  <li>Encouraging someone after a setback.</li>
+  <li>Sharing useful information.</li>
+  <li>Remaining patient while another person learns.</li>
+  <li>Helping resolve a disagreement.</li>
+  <li>Noticing when someone is being overlooked.</li>
+  <li>Celebrating another person&#39;s achievement.</li>
+  <li>Creating a safe environment for people to ask questions.</li>
+</ul>
+<p class="opo-copy">The Guiding Tenno does not need to be highly social or outspoken.</p>
+<p class="opo-copy">Support may also appear through calm presence, reliability, thoughtful actions, or one-to-one connection.</p>
+
+                </section>
+
+                <section class="opo-section">
+                    <article class="opo-detail">
+                        <h2 class="opo-heading">Natural Working Style</h2>
+                        <p class="opo-copy">The Guiding Tenno often:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Builds trust naturally.</li>
+  <li>Enjoys helping people succeed.</li>
+  <li>Listens with empathy.</li>
+  <li>Thrives in collaborative environments.</li>
+  <li>Values meaningful relationships.</li>
+  <li>Notices the emotional atmosphere of a group.</li>
+  <li>Provides encouragement.</li>
+  <li>Explains information patiently.</li>
+  <li>Works well through cooperation.</li>
+  <li>Gains satisfaction from seeing others grow.</li>
+  <li>Creates a sense of belonging.</li>
+  <li>Responds thoughtfully when someone struggles.</li>
+  <li>Prefers shared success over unnecessary competition.</li>
+  <li>Seeks solutions that consider the people involved.</li>
+  <li>Learns through relationships and shared experience.</li>
+</ul>
+<p class="opo-copy">Guiding Tenno participants may be especially attentive to how decisions affect other people.</p>
+<p class="opo-copy">They may measure success not only by whether a task was completed, but also by whether the people involved felt respected, included, and supported.</p>
+<p class="opo-copy">Immersive Working Style</p>
+<p class="opo-copy">The Guiding Tenno does not judge a mission only by its rewards.</p>
+<p class="opo-copy">They remember the people who completed it with them.</p>
+<p class="opo-copy">They may naturally enjoy:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Cooperative gameplay.</li>
+  <li>Mentoring newer players.</li>
+  <li>Reviving teammates.</li>
+  <li>Sharing resources.</li>
+  <li>Explaining unfamiliar mechanics.</li>
+  <li>Celebrating the achievements of others.</li>
+</ul>
+<p class="opo-copy">Their instinct is rarely:</p>
+<p class="opo-copy">“How can I be the best?”</p>
+<p class="opo-copy">It is often:</p>
+<p class="opo-copy">“How can I help us succeed?”</p>
+<p class="opo-copy">That approach may make them someone other people enjoy learning, playing, and growing alongside.</p>
+
+                    </article>
+                    <article class="opo-detail" style="margin-top: 18px;">
+                        <h2 class="opo-heading">Motivations and Preferred Environments</h2>
+                        <p class="opo-copy">The Guiding Tenno may feel motivated by:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Helping someone understand.</li>
+  <li>Seeing another person regain confidence.</li>
+  <li>Creating trust.</li>
+  <li>Working as part of a supportive team.</li>
+  <li>Teaching a useful skill.</li>
+  <li>Making someone feel included.</li>
+  <li>Solving a problem together.</li>
+  <li>Supporting meaningful change.</li>
+  <li>Building lasting relationships.</li>
+  <li>Knowing that their actions helped someone move forward.</li>
+  <li>Creating a calmer or more positive environment.</li>
+  <li>Seeing people develop their own independence.</li>
+</ul>
+<p class="opo-copy">They may thrive in environments that provide:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Meaningful relationships.</li>
+  <li>Cooperative work.</li>
+  <li>Opportunities to teach or mentor.</li>
+  <li>Respectful communication.</li>
+  <li>Shared objectives.</li>
+  <li>Direct human impact.</li>
+  <li>Psychological and emotional safety.</li>
+  <li>Time to listen.</li>
+  <li>Appreciation for patience and care.</li>
+  <li>Opportunities to support development.</li>
+  <li>Healthy teamwork.</li>
+  <li>Clear boundaries around responsibility.</li>
+</ul>
+<p class="opo-copy">Highly competitive or impersonal environments may feel difficult when success is measured without considering the wellbeing of the people involved.</p>
+<p class="opo-copy">However, part of the Guiding Tenno&#39;s development involves recognising that support does not require avoiding every disagreement, challenge, or difficult truth.</p>
+
+                    </article>
+                </section>
+
+                <section class="opo-section">
+                    <div class="opo-panel opo-panel--guidance">
+                        <h2 class="opo-heading">Development Opportunities</h2>
+                        <p class="opo-copy">The willingness to help others is one of the Guiding Tenno&#39;s greatest gifts.</p>
+<p class="opo-copy">However, that strength may become difficult to sustain when the participant forgets to protect their own needs and energy.</p>
+<p class="opo-copy">The Guiding Tenno may occasionally:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Put other people&#39;s needs before their own too often.</li>
+  <li>Find it difficult to say no.</li>
+  <li>Feel responsible for problems that are not theirs to solve.</li>
+  <li>Become discouraged when their support is not appreciated.</li>
+  <li>Avoid necessary conflict to preserve harmony.</li>
+  <li>Take on emotional burdens belonging to other people.</li>
+  <li>Continue helping when the other person needs to act independently.</li>
+  <li>Feel guilty when establishing boundaries.</li>
+  <li>Neglect their own goals.</li>
+  <li>Attempt to rescue others from every consequence.</li>
+  <li>Assume that kindness requires agreement.</li>
+  <li>Become emotionally exhausted without recognising it.</li>
+</ul>
+<p class="opo-copy">As the Guiding Tenno develops, they may benefit from learning that:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Boundaries protect kindness.</li>
+  <li>Helping is different from taking over.</li>
+  <li>Another person&#39;s decision remains their responsibility.</li>
+  <li>Saying no can be respectful.</li>
+  <li>Support should encourage independence.</li>
+  <li>Honest feedback may sometimes be more helpful than reassurance.</li>
+  <li>Their own needs also deserve attention.</li>
+  <li>Rest allows care to remain sustainable.</li>
+  <li>They cannot solve every problem.</li>
+  <li>Not every person will be ready to receive help.</li>
+  <li>Asking for support is also a form of strength.</li>
+</ul>
+<p class="opo-copy">Development Reminder</p>
+<p class="opo-copy">You cannot pour from an empty reservoir.</p>
+<p class="opo-copy">Taking care of yourself allows you to continue caring for others.</p>
+<p class="opo-copy">Healthy boundaries protect both your kindness and your energy.</p>
+<p class="opo-copy">Development should not make the Guiding Tenno less compassionate.</p>
+<p class="opo-copy">It should help their compassion become balanced, sustainable, and genuinely empowering.</p>
+
+                    </div>
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Educational and Career Exploration</h2>
+                    <p class="opo-copy">Guiding Tenno strengths may contribute to educational, healthcare, community, service, organisational, developmental, and people-focused environments.</p>
+<p class="opo-copy">The following areas are examples for exploration, not a closed list or a prescribed career direction.</p>
+<p class="opo-copy">Education and Learning Support</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Teaching.</li>
+  <li>Early-childhood development.</li>
+  <li>Learning support.</li>
+  <li>Educational assistance.</li>
+  <li>Tutoring.</li>
+  <li>Special-needs education support.</li>
+  <li>Training and development.</li>
+  <li>Instructional support.</li>
+  <li>Academic advising.</li>
+  <li>Student services.</li>
+  <li>Educational programme coordination.</li>
+  <li>Library and learning services.</li>
+</ul>
+<p class="opo-copy">Healthcare and Wellbeing Support</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Nursing.</li>
+  <li>Healthcare support.</li>
+  <li>Occupational-therapy assistance.</li>
+  <li>Physiotherapy support.</li>
+  <li>Rehabilitation services.</li>
+  <li>Patient support.</li>
+  <li>Community health.</li>
+  <li>Care work.</li>
+  <li>Wellness programme support.</li>
+  <li>Medical reception and patient coordination.</li>
+  <li>Health education.</li>
+  <li>Emergency-support services.</li>
+</ul>
+<p class="opo-copy">Mentoring and Community Exploration</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Youth mentoring.</li>
+  <li>Social services.</li>
+  <li>Community development.</li>
+  <li>Non-profit work.</li>
+  <li>Family-support services.</li>
+  <li>Outreach programmes.</li>
+  <li>Volunteer coordination.</li>
+  <li>Youth leadership.</li>
+  <li>Peer-support programmes.</li>
+  <li>Community education.</li>
+  <li>Advocacy support.</li>
+  <li>Humanitarian work.</li>
+</ul>
+<p class="opo-copy">People and Organisational Development</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Human resources.</li>
+  <li>Employee development.</li>
+  <li>Learning and development.</li>
+  <li>Customer success.</li>
+  <li>Coaching.</li>
+  <li>Workplace wellbeing.</li>
+  <li>Recruitment support.</li>
+  <li>People operations.</li>
+  <li>Mediation.</li>
+  <li>Facilitation.</li>
+  <li>Team development.</li>
+  <li>Organisational culture support.</li>
+</ul>
+<p class="opo-copy">Communication and Service Exploration</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Customer support.</li>
+  <li>Public service.</li>
+  <li>Hospitality.</li>
+  <li>Community communication.</li>
+  <li>Support-centre work.</li>
+  <li>Client relationship management.</li>
+  <li>Guidance services.</li>
+  <li>Career-support services.</li>
+  <li>Programme facilitation.</li>
+  <li>Conflict-resolution support.</li>
+  <li>Service coordination.</li>
+</ul>
+<p class="opo-copy">Why These Areas May Fit</p>
+<p class="opo-copy">People showing Guiding Tenno strengths may find purpose in environments where:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Trust matters.</li>
+  <li>People require support.</li>
+  <li>Learning and development are encouraged.</li>
+  <li>Communication must remain patient and respectful.</li>
+  <li>Relationships influence success.</li>
+  <li>Someone needs help navigating a challenge.</li>
+  <li>Cooperation is valued.</li>
+  <li>Progress is measured through human development.</li>
+  <li>Encouragement can produce meaningful change.</li>
+</ul>
+<p class="opo-copy">Career exploration should also consider the participant&#39;s:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Personal interests.</li>
+  <li>Emotional boundaries.</li>
+  <li>Educational opportunities.</li>
+  <li>Circumstances.</li>
+  <li>Preferred degree of direct contact with people.</li>
+  <li>Other archetype strengths.</li>
+  <li>Need for structured support and professional training.</li>
+</ul>
+<p class="opo-copy">The Guiding Tenno result identifies possible people-centred avenues.</p>
+<p class="opo-copy">It does not require the participant to work in caregiving or helping professions.</p>
+
+                </section>
+                
+                <section class="opo-panel opo-panel--reflection">
+                    <h2 class="opo-heading">Guiding Tenno Principle</h2>
+                    <p style="font-style: italic; margin-bottom: 0;" class="opo-copy">Listen with care. Encourage with purpose. Help others grow without carrying their journey for them.
+The Guiding Tenno is not defined by solving every problem.
+They are recognised through the willingness to see another person, strengthen their confidence, and help them discover that they are capable of moving forward.</p>
+                </section>
+            </div>
+
+            <footer class="opo-footer">
+                Origin Path: Odyssey™ supports self-discovery and constructive conversation.
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
