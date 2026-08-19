@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origin Path: Odyssey™ — Tactical Analyst</title>
+    <link rel="stylesheet" href="../../origin-path-theme.css">
+    <style>
+        /* Shared landing page backgrounds / globals */
+        :root {
+            --deep-space: #0b0d17;
+            --origin-glow: #ff7e5f;
+            --odyssey-glow: #00c6ff;
+            --accent-purple: #7b2cbf;
+            --accent-gold: #f4d35e;
+        }
+        body {
+            background: var(--deep-space);
+        }
+        .background {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            perspective: 1200px;
+            overflow: hidden;
+            background: var(--deep-space);
+        }
+        .stars {
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(2px 2px at 10% 20%, rgba(255,255,255,0.35), transparent),
+                radial-gradient(1.5px 1.5px at 80% 10%, rgba(255,255,255,0.25), transparent),
+                radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,0.2), transparent),
+                radial-gradient(2px 2px at 90% 60%, rgba(255,255,255,0.3), transparent),
+                radial-gradient(1px 1px at 25% 55%, rgba(255,255,255,0.15), transparent);
+            background-size: 100% 100%;
+            opacity: 0.6;
+            z-index: 0;
+        }
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.7;
+            animation: float 18s ease-in-out infinite;
+            z-index: 1;
+        }
+        .orb-origin {
+            width: 45vw;
+            height: 45vw;
+            max-width: 600px;
+            max-height: 600px;
+            background: radial-gradient(circle at 30% 30%, var(--origin-glow), var(--accent-purple));
+            top: 10%;
+            left: -5%;
+            animation-delay: 0s;
+        }
+        .orb-odyssey {
+            width: 50vw;
+            height: 50vw;
+            max-width: 700px;
+            max-height: 700px;
+            background: radial-gradient(circle at 70% 70%, var(--odyssey-glow), var(--accent-purple));
+            bottom: 5%;
+            right: -10%;
+            animation-delay: -9s;
+        }
+        .orb-gold {
+            width: 25vw;
+            height: 25vw;
+            max-width: 320px;
+            max-height: 320px;
+            background: radial-gradient(circle, var(--accent-gold), transparent 70%);
+            top: 40%;
+            left: 40%;
+            opacity: 0.35;
+            animation-delay: -4s;
+            animation-duration: 22s;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-30px) scale(1.05); }
+        }
+        .opo-shell {
+            position: relative;
+            z-index: 10;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body class="opo-theme">
+    <div class="background" aria-hidden="true">
+        <div class="stars"></div>
+        <div class="orb orb-origin"></div>
+        <div class="orb orb-odyssey"></div>
+        <div class="orb orb-gold"></div>
+    </div>
+    <main class="opo-page">
+        <section class="opo-shell">
+            <header class="opo-hero opo-hero--participant">
+                <p class="opo-eyebrow">Origin Path: Odyssey™</p>
+                <h1 class="opo-title">Tactical Analyst</h1>
+                <p class="opo-copy opo-copy--supporting">Core Question: <em>What is really happening, and what is the most effective way forward?</em></p>
+            </header>
+            
+            <div class="opo-content">
+                <section class="opo-section">
+                    <h2 class="opo-heading">Archetype Identity and Foundation</h2>
+                    <p class="opo-copy">The Tactical Analyst represents curiosity, logical thinking, pattern recognition, strategy, observation, and evidence-based decision-making.</p>
+<p class="opo-copy">Participants showing Tactical Analyst strengths may naturally ask questions that others overlook:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Why did that happen?</li>
+  <li>What information am I missing?</li>
+  <li>Is there a pattern?</li>
+  <li>Could there be a more effective strategy?</li>
+  <li>What are the likely consequences?</li>
+  <li>How can this system become more efficient?</li>
+</ul>
+<p class="opo-copy">The Tactical Analyst often gains confidence through understanding.</p>
+<p class="opo-copy">Rather than relying only on instinct, they may prefer to examine available information, compare alternatives, identify risks, and prepare before making an important decision.</p>
+<p class="opo-copy">They do not analyse merely to collect facts.</p>
+<p class="opo-copy">They analyse so that uncertainty can become clarity and informed action.</p>
+
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Core Purpose</h2>
+                    <p class="opo-copy">The Tactical Analyst helps individuals and groups understand complicated situations and make thoughtful decisions.</p>
+<p class="opo-copy">Their contribution may appear through:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Investigation.</li>
+  <li>Research.</li>
+  <li>Strategic planning.</li>
+  <li>Pattern recognition.</li>
+  <li>Data interpretation.</li>
+  <li>Troubleshooting.</li>
+  <li>Risk assessment.</li>
+  <li>Systems analysis.</li>
+  <li>Evidence-based decision-making.</li>
+  <li>Comparing possible outcomes.</li>
+  <li>Explaining complex ideas clearly.</li>
+  <li>Identifying the cause behind a problem.</li>
+</ul>
+<p class="opo-copy">The Tactical Analyst may notice relationships between pieces of information that others initially view as separate.</p>
+<p class="opo-copy">Once they understand the problem, they can help reveal a more effective way forward.</p>
+
+                </section>
+
+                <section class="opo-section opo-callout opo-callout--participant">
+                    <h2 class="opo-heading">Archetype Contribution</h2>
+                    <p class="opo-copy">The Tactical Analyst brings clarity to complexity.</p>
+
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Defining Strengths</h2>
+                    <p class="opo-copy">Tactical Analyst strengths may include:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Logical thinking.</li>
+  <li>Curiosity.</li>
+  <li>Pattern recognition.</li>
+  <li>Strategic planning.</li>
+  <li>Careful observation.</li>
+  <li>Evidence-based reasoning.</li>
+  <li>Comparing alternatives.</li>
+  <li>Continuous learning.</li>
+  <li>Calmness under pressure.</li>
+  <li>Complex problem-solving.</li>
+  <li>Anticipating possible outcomes.</li>
+  <li>Asking meaningful questions.</li>
+  <li>Understanding systems.</li>
+  <li>Thoughtful decision-making.</li>
+</ul>
+<p class="opo-copy">These strengths may appear in many forms.</p>
+<p class="opo-copy">A participant does not need to enjoy mathematics, spreadsheets, or formal research to demonstrate analytical ability.</p>
+<p class="opo-copy">They may express Tactical Analyst strengths by:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Comparing game builds.</li>
+  <li>Investigating why a device is malfunctioning.</li>
+  <li>Identifying patterns in stories or behaviour.</li>
+  <li>Planning the most efficient route.</li>
+  <li>Questioning unsupported claims.</li>
+  <li>Researching a subject deeply.</li>
+  <li>Understanding rules and systems.</li>
+  <li>Testing different strategies.</li>
+  <li>Explaining why one approach may work better than another.</li>
+</ul>
+
+                </section>
+
+                <section class="opo-section">
+                    <article class="opo-detail">
+                        <h2 class="opo-heading">Natural Working Style</h2>
+                        <p class="opo-copy">The Tactical Analyst often:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Loves understanding how things work.</li>
+  <li>Enjoys solving puzzles and complex problems.</li>
+  <li>Prefers evidence over assumptions.</li>
+  <li>Thinks carefully before making decisions.</li>
+  <li>Continuously improves through learning.</li>
+  <li>Feels satisfied when uncovering the reason behind a problem.</li>
+  <li>Compares available options.</li>
+  <li>Notices patterns and inconsistencies.</li>
+  <li>Plans before committing resources.</li>
+  <li>Learns from both success and failure.</li>
+  <li>Adjusts their approach when new evidence becomes available.</li>
+  <li>Values accuracy and well-supported conclusions.</li>
+</ul>
+<p class="opo-copy">They may prefer to understand the structure of a challenge before acting upon it.</p>
+<p class="opo-copy">This preparation should not automatically be mistaken for hesitation. It may be how the participant creates confidence and reduces unnecessary risk.</p>
+<p class="opo-copy">Immersive Working Style</p>
+<p class="opo-copy">Before a mission begins, the Tactical Analyst has already started preparing.</p>
+<p class="opo-copy">They compare equipment.</p>
+<p class="opo-copy">They review mission objectives.</p>
+<p class="opo-copy">They consider enemy factions.</p>
+<p class="opo-copy">They think about which Warframe, companion, and weapons may provide the greatest advantage.</p>
+<p class="opo-copy">During combat, they remain alert.</p>
+<p class="opo-copy">They notice patterns.</p>
+<p class="opo-copy">They adapt when situations change.</p>
+<p class="opo-copy">Rather than reacting emotionally, they look for information that may support a better decision.</p>
+<p class="opo-copy">Their greatest weapon is not their rifle.</p>
+<p class="opo-copy">It is their ability to understand what is happening around them.</p>
+
+                    </article>
+                    <article class="opo-detail" style="margin-top: 18px;">
+                        <h2 class="opo-heading">Motivations and Preferred Environments</h2>
+                        <p class="opo-copy">The Tactical Analyst may feel motivated by:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Discovering how something works.</li>
+  <li>Solving a difficult puzzle.</li>
+  <li>Finding the cause of a problem.</li>
+  <li>Recognising a pattern.</li>
+  <li>Learning accurate information.</li>
+  <li>Developing a more effective strategy.</li>
+  <li>Testing an assumption.</li>
+  <li>Improving a decision through evidence.</li>
+  <li>Explaining a complicated idea.</li>
+  <li>Reaching a conclusion that can be supported logically.</li>
+</ul>
+<p class="opo-copy">They may thrive in environments that provide:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Intellectual challenge.</li>
+  <li>Access to reliable information.</li>
+  <li>Time to think.</li>
+  <li>Opportunities to investigate.</li>
+  <li>Meaningful problems.</li>
+  <li>Freedom to ask questions.</li>
+  <li>Clear evidence or feedback.</li>
+  <li>Space to test different approaches.</li>
+  <li>People who respect thoughtful reasoning.</li>
+  <li>Opportunities to apply knowledge practically.</li>
+</ul>
+<p class="opo-copy">Environments that discourage questions or demand immediate agreement may feel frustrating to a Tactical Analyst.</p>
+<p class="opo-copy">However, part of their development may involve learning that not every decision can wait for complete information.</p>
+
+                    </article>
+                </section>
+
+                <section class="opo-section">
+                    <div class="opo-panel opo-panel--guidance">
+                        <h2 class="opo-heading">Development Opportunities</h2>
+                        <p class="opo-copy">One of the Tactical Analyst&#39;s greatest strengths is the ability to think deeply.</p>
+<p class="opo-copy">However, deep thinking may sometimes become overthinking.</p>
+<p class="opo-copy">The Tactical Analyst may occasionally:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Spend too much time gathering information before acting.</li>
+  <li>Continue analysing after enough information is available.</li>
+  <li>Search for the perfect solution when a workable solution already exists.</li>
+  <li>Become frustrated when others ignore evidence or logic.</li>
+  <li>Struggle with decisions involving uncertainty.</li>
+  <li>Focus so strongly on facts that emotional or human factors are overlooked.</li>
+  <li>Assume that others require the same level of detail.</li>
+  <li>Delay sharing an idea until every possible weakness has been resolved.</li>
+  <li>Criticise an imperfect solution without recognising the progress it represents.</li>
+</ul>
+<p class="opo-copy">As the Tactical Analyst develops, they may benefit from learning that:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Action creates new information.</li>
+  <li>Experience can answer questions that analysis alone cannot.</li>
+  <li>A decision can be responsible without being perfect.</li>
+  <li>Human experiences are also meaningful forms of information.</li>
+  <li>Clear communication may require simplifying complex reasoning.</li>
+  <li>Not everyone reaches understanding through the same process.</li>
+  <li>Timely action can sometimes be more valuable than additional certainty.</li>
+  <li>Collaboration may reveal perspectives that data alone does not show.</li>
+</ul>
+<p class="opo-copy">Development Reminder</p>
+<p class="opo-copy">Action creates experience. Experience creates wisdom. Sometimes the best way to learn is simply to begin.</p>
+<p class="opo-copy">Development should not reduce the Tactical Analyst&#39;s curiosity or commitment to evidence.</p>
+<p class="opo-copy">It should help them turn understanding into timely, practical, and considerate action.</p>
+
+                    </div>
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Educational and Career Exploration</h2>
+                    <p class="opo-copy">Tactical Analyst strengths may support a broad range of academic, technical, commercial, scientific, creative, and professional directions.</p>
+<p class="opo-copy">The following areas are examples for exploration, not a closed list or a prediction of career suitability.</p>
+<p class="opo-copy">Technology and Systems Exploration</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Software development.</li>
+  <li>Systems analysis.</li>
+  <li>Cybersecurity analysis.</li>
+  <li>Data science.</li>
+  <li>Artificial intelligence and machine learning.</li>
+  <li>Network analysis.</li>
+  <li>Software testing.</li>
+  <li>Database systems.</li>
+  <li>Technical consulting.</li>
+  <li>Information systems.</li>
+</ul>
+<p class="opo-copy">Data and Business Exploration</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Data analysis.</li>
+  <li>Business analysis.</li>
+  <li>Financial analysis.</li>
+  <li>Accounting.</li>
+  <li>Economics.</li>
+  <li>Market research.</li>
+  <li>Risk analysis.</li>
+  <li>Operations research.</li>
+  <li>Process analysis.</li>
+  <li>Quality assurance.</li>
+</ul>
+<p class="opo-copy">Science and Research Exploration</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Research science.</li>
+  <li>Laboratory work.</li>
+  <li>Environmental analysis.</li>
+  <li>Medical research.</li>
+  <li>Statistics.</li>
+  <li>Psychology research.</li>
+  <li>Social research.</li>
+  <li>Forensic science.</li>
+  <li>Scientific modelling.</li>
+  <li>Policy research.</li>
+</ul>
+<p class="opo-copy">Strategic and Investigative Exploration</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Strategic planning.</li>
+  <li>Intelligence analysis.</li>
+  <li>Investigation.</li>
+  <li>Fraud analysis.</li>
+  <li>Compliance.</li>
+  <li>Auditing.</li>
+  <li>Legal research.</li>
+  <li>Security analysis.</li>
+  <li>Logistics planning.</li>
+  <li>Resource planning.</li>
+</ul>
+<p class="opo-copy">Creative and Communication Exploration</p>
+<p class="opo-copy">Analytical strengths may also contribute to:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Game-system design.</li>
+  <li>Narrative analysis.</li>
+  <li>Technical writing.</li>
+  <li>Editing.</li>
+  <li>Journalism.</li>
+  <li>Documentary research.</li>
+  <li>Educational content development.</li>
+  <li>User-experience research.</li>
+  <li>Product strategy.</li>
+  <li>Problem-solving consultancy.</li>
+</ul>
+<p class="opo-copy">Why These Areas May Fit</p>
+<p class="opo-copy">People showing Tactical Analyst strengths may be driven by curiosity and logic.</p>
+<p class="opo-copy">They may thrive where:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Asking meaningful questions is valued.</li>
+  <li>Complex information must be understood.</li>
+  <li>Patterns need to be recognised.</li>
+  <li>Decisions require evidence.</li>
+  <li>Systems must be evaluated.</li>
+  <li>Problems need careful investigation.</li>
+  <li>Conclusions must be explained or defended.</li>
+</ul>
+<p class="opo-copy">Career exploration should also consider the participant&#39;s interests, values, circumstances, preferred working environment, educational opportunities, and other archetype strengths.</p>
+<p class="opo-copy">The Tactical Analyst profile offers investigative avenues.</p>
+<p class="opo-copy">It does not prescribe a profession.</p>
+
+                </section>
+                
+                <section class="opo-panel opo-panel--reflection">
+                    <h2 class="opo-heading">Tactical Analyst Principle</h2>
+                    <p style="font-style: italic; margin-bottom: 0;" class="opo-copy">Question with curiosity. Understand with evidence. Act with wisdom.
+The Tactical Analyst is not defined by knowing every answer.
+They are recognised through the willingness to ask meaningful questions, seek reliable understanding, and use what they discover to make better decisions.</p>
+                </section>
+            </div>
+
+            <footer class="opo-footer">
+                Origin Path: Odyssey™ supports self-discovery and constructive conversation.
+            </footer>
+        </section>
+    </main>
+</body>
+</html>

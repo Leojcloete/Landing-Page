@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origin Path: Odyssey™ — Clan Commander</title>
+    <link rel="stylesheet" href="../../origin-path-theme.css">
+    <style>
+        /* Shared landing page backgrounds / globals */
+        :root {
+            --deep-space: #0b0d17;
+            --origin-glow: #ff7e5f;
+            --odyssey-glow: #00c6ff;
+            --accent-purple: #7b2cbf;
+            --accent-gold: #f4d35e;
+        }
+        body {
+            background: var(--deep-space);
+        }
+        .background {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            perspective: 1200px;
+            overflow: hidden;
+            background: var(--deep-space);
+        }
+        .stars {
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(2px 2px at 10% 20%, rgba(255,255,255,0.35), transparent),
+                radial-gradient(1.5px 1.5px at 80% 10%, rgba(255,255,255,0.25), transparent),
+                radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,0.2), transparent),
+                radial-gradient(2px 2px at 90% 60%, rgba(255,255,255,0.3), transparent),
+                radial-gradient(1px 1px at 25% 55%, rgba(255,255,255,0.15), transparent);
+            background-size: 100% 100%;
+            opacity: 0.6;
+            z-index: 0;
+        }
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(60px);
+            opacity: 0.7;
+            animation: float 18s ease-in-out infinite;
+            z-index: 1;
+        }
+        .orb-origin {
+            width: 45vw;
+            height: 45vw;
+            max-width: 600px;
+            max-height: 600px;
+            background: radial-gradient(circle at 30% 30%, var(--origin-glow), var(--accent-purple));
+            top: 10%;
+            left: -5%;
+            animation-delay: 0s;
+        }
+        .orb-odyssey {
+            width: 50vw;
+            height: 50vw;
+            max-width: 700px;
+            max-height: 700px;
+            background: radial-gradient(circle at 70% 70%, var(--odyssey-glow), var(--accent-purple));
+            bottom: 5%;
+            right: -10%;
+            animation-delay: -9s;
+        }
+        .orb-gold {
+            width: 25vw;
+            height: 25vw;
+            max-width: 320px;
+            max-height: 320px;
+            background: radial-gradient(circle, var(--accent-gold), transparent 70%);
+            top: 40%;
+            left: 40%;
+            opacity: 0.35;
+            animation-delay: -4s;
+            animation-duration: 22s;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-30px) scale(1.05); }
+        }
+        .opo-shell {
+            position: relative;
+            z-index: 10;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body class="opo-theme">
+    <div class="background" aria-hidden="true">
+        <div class="stars"></div>
+        <div class="orb orb-origin"></div>
+        <div class="orb orb-odyssey"></div>
+        <div class="orb orb-gold"></div>
+    </div>
+    <main class="opo-page">
+        <section class="opo-shell">
+            <header class="opo-hero opo-hero--participant">
+                <p class="opo-eyebrow">Origin Path: Odyssey™</p>
+                <h1 class="opo-title">Clan Commander</h1>
+                <p class="opo-copy opo-copy--supporting">Core Question: <em>How can we move forward together?</em></p>
+            </header>
+            
+            <div class="opo-content">
+                <section class="opo-section">
+                    <h2 class="opo-heading">Archetype Identity and Foundation</h2>
+                    <p class="opo-copy">The Clan Commander represents leadership, responsibility, communication, coordination, decision-making, and the ability to bring people together around a shared objective.</p>
+<p class="opo-copy">Leadership within Origin Path: Odyssey™ is not defined by authority, popularity, status, or control.</p>
+<p class="opo-copy">It begins with responsibility.</p>
+<p class="opo-copy">Participants showing Clan Commander strengths may naturally notice:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>When a group needs direction.</li>
+  <li>Which strengths different people contribute.</li>
+  <li>Whether everyone understands the objective.</li>
+  <li>When a decision must be made.</li>
+  <li>How responsibilities could be shared.</li>
+  <li>Where disagreement is preventing progress.</li>
+  <li>Who may need encouragement.</li>
+  <li>How people can work together more effectively.</li>
+</ul>
+<p class="opo-copy">The Clan Commander may step forward when uncertainty affects the group.</p>
+<p class="opo-copy">Their purpose is not simply to give instructions.</p>
+<p class="opo-copy">It is to create enough clarity, confidence, and shared direction for people to contribute meaningfully.</p>
+
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Core Purpose</h2>
+                    <p class="opo-copy">The Clan Commander helps transform separate individuals into a coordinated team.</p>
+<p class="opo-copy">Their contribution may appear through:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Establishing direction.</li>
+  <li>Communicating objectives.</li>
+  <li>Organising group efforts.</li>
+  <li>Making responsible decisions.</li>
+  <li>Encouraging participation.</li>
+  <li>Resolving disagreements.</li>
+  <li>Delegating responsibilities.</li>
+  <li>Recognising the strengths of others.</li>
+  <li>Maintaining confidence during uncertainty.</li>
+  <li>Supporting shared accountability.</li>
+  <li>Motivating people.</li>
+  <li>Protecting the purpose of the group.</li>
+  <li>Helping others develop leadership abilities.</li>
+  <li>Representing a team or community.</li>
+</ul>
+<p class="opo-copy">The Clan Commander understands that leadership is not measured only by personal achievement.</p>
+<p class="opo-copy">It is also measured by what the group becomes capable of achieving together.</p>
+
+                </section>
+
+                <section class="opo-section opo-callout opo-callout--participant">
+                    <h2 class="opo-heading">Archetype Contribution</h2>
+                    <p class="opo-copy">The Clan Commander helps people move towards a shared purpose.</p>
+
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Defining Strengths</h2>
+                    <p class="opo-copy">Clan Commander strengths may include:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Leadership.</li>
+  <li>Communication.</li>
+  <li>Responsibility.</li>
+  <li>Decision-making.</li>
+  <li>Coordination.</li>
+  <li>Motivation.</li>
+  <li>Strategic awareness.</li>
+  <li>Confidence.</li>
+  <li>Calmness under pressure.</li>
+  <li>Conflict resolution.</li>
+  <li>Delegation.</li>
+  <li>Seeing the bigger picture.</li>
+  <li>Recognising the strengths of others.</li>
+  <li>Creating shared direction.</li>
+  <li>Building trust.</li>
+  <li>Encouraging collective achievement.</li>
+</ul>
+<p class="opo-copy">These strengths may appear before the participant receives any formal title.</p>
+<p class="opo-copy">A participant may demonstrate Clan Commander abilities by:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Helping a group decide what to do next.</li>
+  <li>Coordinating a school project.</li>
+  <li>Organising friends around an activity.</li>
+  <li>Encouraging a team after a setback.</li>
+  <li>Helping resolve a disagreement.</li>
+  <li>Taking responsibility when something goes wrong.</li>
+  <li>Making sure quieter members are heard.</li>
+  <li>Explaining a goal clearly.</li>
+  <li>Dividing work according to different strengths.</li>
+  <li>Remaining calm when others feel uncertain.</li>
+</ul>
+<p class="opo-copy">Leadership may be confident and visible.</p>
+<p class="opo-copy">It may also appear quietly through reliability, initiative, service, and the ability to help others feel capable.</p>
+
+                </section>
+
+                <section class="opo-section">
+                    <article class="opo-detail">
+                        <h2 class="opo-heading">Natural Working Style</h2>
+                        <p class="opo-copy">The Clan Commander often:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Enjoys coordinating people towards shared goals.</li>
+  <li>Remains relatively calm when decisions are required.</li>
+  <li>Motivates others naturally.</li>
+  <li>Recognises strengths within different personalities.</li>
+  <li>Prefers meaningful collaboration over unnecessary competition.</li>
+  <li>Accepts responsibility.</li>
+  <li>Communicates direction.</li>
+  <li>Keeps sight of the wider objective.</li>
+  <li>Steps forward when leadership is absent.</li>
+  <li>Encourages participation.</li>
+  <li>Seeks practical resolution during conflict.</li>
+  <li>Builds confidence within a group.</li>
+  <li>Thinks about how decisions affect the whole team.</li>
+  <li>Values trust and accountability.</li>
+  <li>Gains satisfaction from collective achievement.</li>
+</ul>
+<p class="opo-copy">Clan Commanders may naturally assess the group as a whole rather than focusing only on their own role.</p>
+<p class="opo-copy">They may ask:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Who is best suited to this responsibility?</li>
+  <li>Does everyone understand the objective?</li>
+  <li>What is preventing us from moving forward?</li>
+  <li>Whose perspective has not yet been heard?</li>
+  <li>How can I help the team regain confidence?</li>
+</ul>
+<p class="opo-copy">Immersive Working Style</p>
+<p class="opo-copy">The Clan Commander does not focus only on personal performance.</p>
+<p class="opo-copy">They remain aware of the entire squad.</p>
+<p class="opo-copy">They ask:</p>
+<p class="opo-copy">Who needs support?</p>
+<p class="opo-copy">What is our objective?</p>
+<p class="opo-copy">How do we succeed together?</p>
+<p class="opo-copy">How can everyone&#39;s strengths be used effectively?</p>
+<p class="opo-copy">They understand that every Tenno contributes differently.</p>
+<p class="opo-copy">Their role is helping those strengths work together.</p>
+<p class="opo-copy">Victory is never theirs alone.</p>
+<p class="opo-copy">It belongs to the entire team.</p>
+
+                    </article>
+                    <article class="opo-detail" style="margin-top: 18px;">
+                        <h2 class="opo-heading">Motivations and Preferred Environments</h2>
+                        <p class="opo-copy">The Clan Commander may feel motivated by:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Helping a group succeed.</li>
+  <li>Creating direction during uncertainty.</li>
+  <li>Bringing different people together.</li>
+  <li>Accepting meaningful responsibility.</li>
+  <li>Seeing someone grow in confidence.</li>
+  <li>Solving a conflict constructively.</li>
+  <li>Building a dependable team.</li>
+  <li>Making decisions that create progress.</li>
+  <li>Representing a shared purpose.</li>
+  <li>Helping others recognise their strengths.</li>
+  <li>Completing something that required cooperation.</li>
+  <li>Seeing a team become more capable over time.</li>
+</ul>
+<p class="opo-copy">They may thrive in environments providing:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Shared objectives.</li>
+  <li>Meaningful responsibility.</li>
+  <li>Opportunities to coordinate.</li>
+  <li>Clear communication.</li>
+  <li>Space for initiative.</li>
+  <li>Collaborative decision-making.</li>
+  <li>Diverse people and perspectives.</li>
+  <li>Challenges requiring teamwork.</li>
+  <li>Opportunities to mentor.</li>
+  <li>Constructive accountability.</li>
+  <li>Trust.</li>
+  <li>Recognition for team development rather than personal status alone.</li>
+</ul>
+<p class="opo-copy">Environments where authority is valued more than trust may conflict with the Clan Commander&#39;s strongest potential.</p>
+<p class="opo-copy">Part of their development involves understanding that leadership can be exercised without holding the highest title and that good ideas may come from any member of the group.</p>
+
+                    </article>
+                </section>
+
+                <section class="opo-section">
+                    <div class="opo-panel opo-panel--guidance">
+                        <h2 class="opo-heading">Development Opportunities</h2>
+                        <p class="opo-copy">Leadership carries significant responsibility.</p>
+<p class="opo-copy">The Clan Commander&#39;s desire to help everyone succeed may sometimes lead them to carry too much or become overly attached to their preferred direction.</p>
+<p class="opo-copy">They may occasionally:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Take on too much responsibility.</li>
+  <li>Find it difficult to delegate.</li>
+  <li>Become frustrated when others do not share the same level of commitment.</li>
+  <li>Forget to ask for help.</li>
+  <li>Make decisions before everyone has had an opportunity to contribute.</li>
+  <li>Confuse leadership with control.</li>
+  <li>Feel personally responsible for every team outcome.</li>
+  <li>Struggle when someone challenges their direction.</li>
+  <li>Become impatient with slower decision-making.</li>
+  <li>Protect the group from consequences that could become valuable lessons.</li>
+  <li>Focus on maintaining confidence while overlooking uncertainty within themselves.</li>
+  <li>Assume that visible leadership is always required.</li>
+  <li>Speak for others instead of creating space for them to speak.</li>
+  <li>Continue leading when another person may be better suited to the situation.</li>
+</ul>
+<p class="opo-copy">As the Clan Commander develops, they may benefit from learning that:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Delegation demonstrates trust.</li>
+  <li>Listening is an active form of leadership.</li>
+  <li>Shared ownership creates stronger teams.</li>
+  <li>Disagreement does not automatically mean disloyalty.</li>
+  <li>Asking for help strengthens credibility.</li>
+  <li>A leader does not need to possess every answer.</li>
+  <li>Responsibility should be distributed appropriately.</li>
+  <li>Other people need opportunities to lead.</li>
+  <li>Honest uncertainty can create trust.</li>
+  <li>Feedback should influence direction.</li>
+  <li>Authority cannot replace respect.</li>
+  <li>Rest and reflection support responsible decision-making.</li>
+</ul>
+<p class="opo-copy">Development Reminder</p>
+<p class="opo-copy">Great leaders build great teams.</p>
+<p class="opo-copy">They do not try to carry every mission alone.</p>
+<p class="opo-copy">The strongest Commander trusts others to use their own strengths.</p>
+<p class="opo-copy">Development should not weaken the participant&#39;s confidence or willingness to lead.</p>
+<p class="opo-copy">It should help their leadership become more collaborative, humble, trustworthy, and sustainable.</p>
+
+                    </div>
+                </section>
+
+                <section class="opo-section">
+                    <h2 class="opo-heading">Educational and Career Exploration</h2>
+                    <p class="opo-copy">Clan Commander strengths may contribute to commercial, educational, community, public-service, entrepreneurial, operational, creative, and team-based environments.</p>
+<p class="opo-copy">The following areas are examples for exploration, not a closed list or prescribed career direction.</p>
+<p class="opo-copy">Business and Organisational Leadership</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Business management.</li>
+  <li>Project management.</li>
+  <li>Operations leadership.</li>
+  <li>Team leadership.</li>
+  <li>Sales leadership.</li>
+  <li>Human-resources management.</li>
+  <li>Department coordination.</li>
+  <li>Product management.</li>
+  <li>Programme management.</li>
+  <li>Executive leadership.</li>
+  <li>Organisational development.</li>
+  <li>Management consulting.</li>
+</ul>
+<p class="opo-copy">Entrepreneurship and Innovation Leadership</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Entrepreneurship.</li>
+  <li>Small-business ownership.</li>
+  <li>Start-up leadership.</li>
+  <li>Social enterprise.</li>
+  <li>Product development.</li>
+  <li>Innovation management.</li>
+  <li>Creative-team leadership.</li>
+  <li>Business development.</li>
+  <li>Partnership management.</li>
+  <li>Venture development.</li>
+</ul>
+<p class="opo-copy">Community and Public Leadership</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Community development.</li>
+  <li>Non-profit management.</li>
+  <li>Youth leadership.</li>
+  <li>Public administration.</li>
+  <li>Local-government programmes.</li>
+  <li>Advocacy.</li>
+  <li>Community organising.</li>
+  <li>Volunteer coordination.</li>
+  <li>Public-service leadership.</li>
+  <li>Humanitarian programme management.</li>
+  <li>Civic initiatives.</li>
+</ul>
+<p class="opo-copy">Education and Development Leadership</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Teaching.</li>
+  <li>School leadership.</li>
+  <li>Training and development.</li>
+  <li>Coaching.</li>
+  <li>Student leadership.</li>
+  <li>Educational programme management.</li>
+  <li>Youth mentoring.</li>
+  <li>Sports coaching.</li>
+  <li>Career-development programmes.</li>
+  <li>Learning facilitation.</li>
+</ul>
+<p class="opo-copy">Events, Media and Team Coordination</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Event management.</li>
+  <li>Production management.</li>
+  <li>Campaign leadership.</li>
+  <li>Media-team coordination.</li>
+  <li>Communications management.</li>
+  <li>Hospitality management.</li>
+  <li>Sports management.</li>
+  <li>Creative direction.</li>
+  <li>Conference coordination.</li>
+  <li>Community-event leadership.</li>
+</ul>
+<p class="opo-copy">Strategic and Operational Leadership</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Operations director.</li>
+  <li>Logistics management.</li>
+  <li>Emergency-services leadership.</li>
+  <li>Security management.</li>
+  <li>Programme director.</li>
+  <li>Service-delivery management.</li>
+  <li>Change management.</li>
+  <li>Account management.</li>
+  <li>Customer-success leadership.</li>
+  <li>Project portfolio management.</li>
+</ul>
+<p class="opo-copy">Why These Areas May Fit</p>
+<p class="opo-copy">People showing Clan Commander strengths may thrive where:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>People must be united around a purpose.</li>
+  <li>Decisions affect a wider group.</li>
+  <li>Responsibilities must be coordinated.</li>
+  <li>Communication influences success.</li>
+  <li>Confidence must be maintained during uncertainty.</li>
+  <li>Different strengths need to work together.</li>
+  <li>Conflict requires thoughtful resolution.</li>
+  <li>Teams need encouragement and direction.</li>
+  <li>Results depend upon trust and shared accountability.</li>
+</ul>
+<p class="opo-copy">Career exploration should also consider the participant&#39;s:</p>
+<ul style="color: var(--opo-copy); margin-bottom: 14px; padding-left: 20px;">
+  <li>Interests.</li>
+  <li>Values.</li>
+  <li>Educational opportunities.</li>
+  <li>Circumstances.</li>
+  <li>Preferred leadership environment.</li>
+  <li>Comfort with responsibility.</li>
+  <li>Other archetype strengths.</li>
+  <li>Willingness to serve and develop others.</li>
+</ul>
+<p class="opo-copy">The Clan Commander result identifies possible leadership avenues.</p>
+<p class="opo-copy">It does not guarantee authority, require management, or prescribe an executive career.</p>
+
+                </section>
+                
+                <section class="opo-panel opo-panel--reflection">
+                    <h2 class="opo-heading">Clan Commander Principle</h2>
+                    <p style="font-style: italic; margin-bottom: 0;" class="opo-copy">Lead with service. Listen with humility. Unite people around a purpose they can share.
+The Clan Commander is not defined by authority or the number of people following them.
+They are recognised through the willingness to accept responsibility, build trust, and help other people become stronger contributors and leaders themselves.</p>
+                </section>
+            </div>
+
+            <footer class="opo-footer">
+                Origin Path: Odyssey™ supports self-discovery and constructive conversation.
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
