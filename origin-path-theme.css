@@ -73,7 +73,7 @@
   --opo-radius-pill: 999px;
 
   --opo-shadow-shell: 0 18px 50px rgba(0, 0, 0, 0.35);
-  --opo-reading-width: 760px;
+  --opo-reading-width: 960px;
   --opo-page-width: 1120px;
 }
 
@@ -151,10 +151,10 @@ body.opo-theme {
 .opo-card__percentage--participant { color: var(--opo-participant-percentage); }
 .opo-card__percentage--supporter { color: var(--opo-supporter-percentage); }
 
-.opo-callout { padding: var(--opo-space-6); border-left: 4px solid; border-radius: var(--opo-radius-block); }
-.opo-callout--participant { background: var(--opo-participant-surface); border-left-color: var(--opo-participant-accent); }
+.opo-callout { padding: var(--opo-space-6); border: 2px solid; border-radius: var(--opo-radius-block); }
+.opo-callout--participant { background: var(--opo-participant-surface); border-color: var(--opo-participant-accent); }
 .opo-callout--participant .opo-heading { color: var(--opo-participant-title); }
-.opo-callout--supporter { background: var(--opo-supporter-surface); border-left-color: var(--opo-supporter-accent); }
+.opo-callout--supporter { background: var(--opo-supporter-surface); border-color: var(--opo-supporter-accent); }
 .opo-callout--supporter .opo-heading { color: var(--opo-supporter-title); }
 
 .opo-detail { padding: 18px var(--opo-space-5); background: var(--opo-detail); border-radius: var(--opo-radius-block); }
