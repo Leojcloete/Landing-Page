@@ -118,6 +118,9 @@ body.opo-theme {
 .opo-hero { padding: 36px 38px 30px; border-bottom: 1px solid var(--opo-hero-border); }
 .opo-hero--participant { background: linear-gradient(145deg, var(--opo-participant-hero-start), var(--opo-participant-hero-mid) 55%, var(--opo-participant-hero-end)); }
 .opo-hero--supporter { background: linear-gradient(145deg, var(--opo-supporter-hero-start), var(--opo-supporter-hero-mid) 55%, var(--opo-supporter-hero-end)); }
+.opo-hero-header { display: flex; align-items: center; gap: var(--opo-space-5); margin-bottom: var(--opo-space-5); }
+.opo-logo { max-width: 140px; height: auto; display: block; flex-shrink: 0; }
+.opo-hero-header .opo-title { margin-bottom: 0; }
 
 .opo-content { padding: var(--opo-space-8) 38px var(--opo-space-10); }
 .opo-section { margin-bottom: 30px; padding-bottom: var(--opo-space-7); border-bottom: 1px solid var(--opo-divider); }
@@ -181,6 +184,8 @@ body.opo-theme {
 @media (max-width: 620px) {
   .opo-page { width: min(100% - 16px, var(--opo-page-width)); padding-top: var(--opo-space-3); }
   .opo-hero, .opo-content, .opo-footer { padding-left: 22px; padding-right: 22px; }
+  .opo-hero-header { flex-direction: column; align-items: flex-start; gap: var(--opo-space-4); }
+  .opo-logo { max-width: 100px; }
   .opo-grid { grid-template-columns: 1fr; gap: var(--opo-space-3); }
   .opo-title { font-size: 25px; }
 }
